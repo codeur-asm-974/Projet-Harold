@@ -1,0 +1,133 @@
+
+
+
+body { 
+    margin: 0px;
+    padding: 0px;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+}
+.header{
+    height: 80px;
+}
+.headerContainer {
+   height: 80px; 
+  background: orange;
+  border-radius: 20px;
+}
+.liste{
+    list-style-type: none;
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+   
+}
+
+li {
+    
+    margin-right: 10px;
+    color: black;
+    cursor: pointer;
+}
+.btn {
+    display: none;
+}
+
+.formulaire {
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 10px;
+    width:300px ;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+
+.valid {
+    width:50px ;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.lab{
+    margin-top: 20px;
+    color:blue;
+
+}
+.contenu{
+    height: 69vh;
+}
+
+.elementFoot{
+    margin-bottom: 0px;
+}
+
+.footerContainer {
+    display: flex;
+    height: auto;
+    
+}
+.foot{
+    list-style-type: none;
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid;
+    border-radius:5px;
+
+}
+
+   
+    
+  
+     
+ 
+
+@media screen and (max-width: 500px){
+    header{
+height: 300px;
+
+    }
+    .liste{
+        flex-direction: column;
+        height :200px;
+        text-align: center;
+    } 
+    li:nth-child(1){
+        border-top: 1px solid #fff;
+        margin-top: 100px;
+        
+    }
+    li{
+        height:50px;
+        width: 100%;
+        border-bottom:1px solid #fff ;
+        line-height: 50px;
+        
+    }
+    .btn {
+        display:block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        color: #f1f1f1;
+        cursor: pointer;
+    }
+}
+
+
+    
