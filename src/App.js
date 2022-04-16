@@ -2,9 +2,9 @@
 import React from "react";
 import Header from "./Header";
 import './challenge.css'
-import LoginForm from "./LoginForm";
+
 import Footer from "./Footer";
-import './bannier-facebook.jpeg'
+import './LOGO.png'
 
 function App() {
   return (
@@ -12,8 +12,6 @@ function App() {
    
       <Header /> 
     
-      <LoginForm />
-   
       <Footer />
  
  
