@@ -1,6 +1,6 @@
 import React from "react";
 import './challenge.css'
-import './LOGO.png'
+import logo from './LOGO.png'
 
  function Header() {
     
@@ -22,7 +22,7 @@ import './LOGO.png'
 
         <button className="btn">ICI</button>
 
-        <img className="baniere" src={'LOGO.png'} alt="logo" />
+        <img className="logo" src={logo} alt="logo" />
 
         </div>
     )

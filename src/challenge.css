@@ -42,6 +42,9 @@ li {
 .btn {
     display: none;
 }
+.logo {
+    width: 200px;
+}
 
 .formulaire {
     background-color: aqua;

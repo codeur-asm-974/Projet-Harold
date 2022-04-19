@@ -4,7 +4,7 @@ import Header from "./Header";
 import './challenge.css'
 
 import Footer from "./Footer";
-import './LOGO.png'
+
 
 function App() {
   return (
