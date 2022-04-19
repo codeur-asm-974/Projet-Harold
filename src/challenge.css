@@ -1,5 +1,8 @@
 
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 body { 
     margin: 0px;
@@ -9,16 +12,17 @@ body {
    height: 100%;
 }
 .header{
-    height: 80px;
+    height: 70px;
 }
 .headerContainer {
-   height: 80px; 
+   height: 60px; 
   background: orange;
+  color: darkslateblue;
   border-radius: 20px;
 }
 .liste{
     list-style-type: none;
-    
+   
     height: 100%;
     display: flex;
     justify-content: center;
@@ -37,6 +41,9 @@ li {
 }
 .btn {
     display: none;
+}
+.logo {
+    width: 200px;
 }
 
 .formulaire {
@@ -64,16 +71,15 @@ li {
     color:blue;
 
 }
-.contenu{
-    height: 69vh;
-}
 
-.elementFoot{
-    margin-bottom: 0px;
-}
+
+
+
 
 .footerContainer {
-    display: flex;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
     height: auto;
     
 }
@@ -87,7 +93,7 @@ li {
     align-items: center;
     position: relative;
     border: 1px solid;
-    border-radius:5px;
+    border-radius:50px;
 
 }
 

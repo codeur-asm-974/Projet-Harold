@@ -6,11 +6,11 @@ import './challenge.css'
     return (
        
             <div className="footerContainer">
-            <ul className="foot">
-                <li  style={{marginRight:'20px'}}>Tel</li>
-                <li  style={{marginRight:'20px'}}>Email</li>
-                <li  style={{marginRight:'20px'}}>Facebook</li>
-                <li  style={{marginRight:'20px'}}>Instagram</li>
+            <ul className="foot" >
+                <li  style={{marginRight:'20px', color:'blue'}}>Tel</li>
+                <li  style={{marginRight:'20px', color:'blue'}}>Email</li>
+                <li  style={{marginRight:'20px', color:'blue'}}>Facebook</li>
+                <li  style={{marginRight:'20px', color:'blue'}}>Instagram</li>
                
             </ul>
             
