@@ -16,9 +16,9 @@ body {
 }
 .headerContainer {
     
-   height: 90px; 
-  background: orange;
-  color: darkslateblue;
+   height: 70px; 
+  background:rgb(0, 162, 255);
+  color: rgb(61, 117, 139);
   
 }
 .liste{
@@ -38,7 +38,7 @@ li {
     font-family: Helvetica, sans-serif;
     font-size: 20px;
     margin-right: 10px;
-    color: grey;
+    color:white;
     cursor: pointer;
 }
 li:hover{
@@ -57,12 +57,22 @@ li:hover{
     
     
 }
+
+.photo {
+    width: 250px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 20%;
+    animation: apparition 0.8s ease-out;
+    
+    
+}
 .paraContainer{
     
     text-align: center;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 50px;
-    color:white;
+    color:orange;
     font-size: 40px;
     text-shadow:4px 4px black ;
     animation: apparition 0.8s ease-out;
@@ -82,7 +92,7 @@ li:hover{
 
 .formulaire {
     padding: 10px;
-    background-color:lightgray;
+    background-color:lightblue;
     border: 1px solid;
     border-radius: 10px;
     width:80%  ;
@@ -92,7 +102,7 @@ li:hover{
    
     text-align: center;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .valid {
@@ -125,6 +135,16 @@ h2{
     
 }
 
+    
+    
+
+
+
+   
+  
+    
+
+
 
 
 
@@ -132,7 +152,7 @@ h2{
 .footerContainer {
     position:absolute;
     margin-bottom: 0px;
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
     height: auto;
     line-height: 24px;
@@ -140,7 +160,7 @@ h2{
 .foot{
     list-style-type: none;
     background-color: gray;
-    height: 70px;
+    height: 100px;
     width: 100%;
    display: flex;
     justify-content: center;

@@ -3,7 +3,10 @@ import React from "react";
 import Header from "./Header";
 import Paragraphe from "./Paragraphe";
 import './challenge.css'
-import reunion from './reunion.jpg'
+import bureau from './bureau.jpeg'
+
+import photo from './photo.png'
+
 import LoginForm from "./LoginForm";
 
 import Footer from "./Footer";
@@ -15,7 +18,10 @@ function App() {
     <div className="App">
    
       <Header /> 
-      <img className="reunion" src={reunion} alt="reunion"  />
+      <img className="reunion" src={bureau} alt="reunion"  />
+     
+      <img className="photo" src={photo} alt="reunion"  />
+     
         
             <Paragraphe className="paraContainer" >Création de supports de communications,Logo...</Paragraphe>
             <Paragraphe className="paraContainer" >Prise de vue Photo-Vidéo</Paragraphe>
