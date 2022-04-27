@@ -4,16 +4,15 @@ import Header from "./Header";
 import Paragraphe from "./Paragraphe";
 import './challenge.css'
 import bureau from './bureau.jpeg'
-
 import photo from './photo.png'
 
-import LoginForm from "./LoginForm";
-
 import Footer from "./Footer";
-
+import LogiqueModale from "./LogiqueModale" ;
+import Modale from "./Modale"
 
 
 function App() {
+  const {revele,toggle} = LogiqueModale();
   return (
     <div className="App">
    
@@ -28,8 +27,15 @@ function App() {
             <Paragraphe className="paraContainer" >Transfert cassette VHS vers clés USB</Paragraphe>
             <Paragraphe className="paraContainer">Restauration de photo ancienne</Paragraphe>
             <Paragraphe className="paraContainer">Et encore bien d autres choses à decouvrir.....</Paragraphe>
- 
-      <LoginForm />
+        <div className='close'>
+        <button className='button' type="texte" onClick={toggle}><p className="p1">Votres devis ici gratuit</p></button>
+            <Modale
+            revele={revele} 
+            cache={toggle}
+            />
+        </div>
+           
+      
       <Footer />
     </div>
   

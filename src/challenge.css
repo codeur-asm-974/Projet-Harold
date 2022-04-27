@@ -2,14 +2,19 @@
 *{
     margin: 0px;
     padding: 0px;
+    
 }
+   
+    
+    
+
 
 body { 
     margin: 0px;
     padding: 0px;
    display: flex;
    flex-direction: column;
-   height: 100vh;
+   height: 110%;
 }
 .header{
     height: 70px;
@@ -62,7 +67,7 @@ li:hover{
     width: 250px;
     position: absolute;
     margin-left: 60px;
-    margin-top: 20%;
+    margin-top: 15%;
     animation: apparition 0.8s ease-out;
     
     
@@ -128,39 +133,50 @@ h2{
 
 
 .reunion {
+    
     width: 100%;
     position: absolute;
     z-index: -2;
+    height: 100%;
     
     
 }
-
+.button{
+    display: flex;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    width: 60%;
+    height: 40px;
+    background:rgb(0, 162, 255);
+    margin-top: 40px;
     
     
 
-
-
-   
-  
-    
-
-
-
-
-
+}
+.p1{
+    margin: auto;
+    font-size: 30px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+/*.close{
+    position:absolute;
+    width:50px;
+    display: flex;
+    flex-direction: row;
+*/
 
 .footerContainer {
-    position:absolute;
+    position: relative;
     margin-bottom: 0px;
-    margin-top: 20px;
     width: 100%;
-    height: auto;
-    line-height: 24px;
+    
+    
 }
 .foot{
     list-style-type: none;
     background-color: gray;
-    height: 100px;
+    height: 60px;
     width: 100%;
    display: flex;
     justify-content: center;

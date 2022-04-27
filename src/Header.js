@@ -4,7 +4,7 @@ import logo from './LOGO.png'
 
  function Header() {
     
-   const [toggleMenu, setToggleMenu] = useState(true);
+   const [toggleMenu, setToggleMenu] =useState(true);
    const [largeur, setLargeur] = useState(window.innerWidth)
    const toggleSmallScreen = () => {
        setToggleMenu(!toggleMenu);
